@@ -1,0 +1,102 @@
+
+html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.redactor {
+  width: 80vw;
+  height: 80vh;
+  border:2px solid #242424;
+  display: flex;
+}
+
+.board {
+  width: 25%;
+  height: 100%;
+  border-right: 2px solid #242424;
+
+}
+
+.board-title {
+  border-bottom: 1px solid #242424;
+  text-align: center;
+  font-size: 36px;
+  height: 25%;
+}
+
+.board-ui {
+  display: flex;
+  padding: 0 10px 0 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+  height: 75%;
+}
+
+.image {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+}
+
+.editor {
+  width: 74%;
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-textarea {
+  height: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.editor-image {
+  height: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.editor-image-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
+
+
+// DRAGANDDROP TESTING
+.card {
+  width: 200px;
+  height: 150px;
+  border-radius: 12px;
+  border: 1px solid rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  cursor: grab;
+  color: rebeccapurple;
+
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
